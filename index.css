@@ -1,0 +1,31 @@
+html, body{
+	background-color: #000000
+}
+
+
+
+.imagem-carrossel{
+	object-fit: cover;
+	object-position:60% 30%;
+	height: 650px;
+}
+
+.nav-link{
+	
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.nav-link:hover{
+	text-decoration: underline;
+}
+.fonte-titulo{
+	font-family: 'Bowlby One SC', cursive;
+	color:#EEB422;
+}
+
+.fonte-modal{
+	font-family: 'Bowlby One SC', cursive;
+	color:#000000;
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color:#EEB422;
+
+}
+
+.fonte-titulo{
+    font-family: 'Bowlby One SC', cursive;
+    font-color: #EEB422;
+    padding-top: 0px;
+}
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 100px;
+
+}
+
+
+.main {
+    padding: 0px 0px;
+    padding-top: 0px 0px;
+
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 20%;
+
+    }
+
+    .register-form{
+        margin-top: 50%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+.sidenav{
+    width: 50%;
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    left: 0;
+
+}
+
+.login-form{
+    margin-top: 65%;
+
+}
+
+.register-form{
+    margin-top: 20%;
+
+}
+
+
+#login{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 400;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}

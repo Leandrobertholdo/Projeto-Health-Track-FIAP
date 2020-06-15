@@ -1,0 +1,49 @@
+html, body{
+	background-color: #000000
+}
+
+
+.fonte-especial{
+	font-family: 'Bowlby One SC', cursive;
+	color: #EEB422
+	
+}
+
+
+.nav-link{
+	
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.nav-link:hover{
+	text-decoration: underline;
+}
+
+
+h3{
+	color: #EEB422;
+
+}
+
+.fonte-titulo{
+	font-family: arial, cursive;
+	font-weight: bold;
+	color: #000000
+}
+
+.card{
+	object-fit: cover;
+	height: 250px;
+}
+
+.card:hover{
+	border: #EEB422;
+	border-color:900px;
+	font-size: 18px;
+}
+
+ion-icon {
+  font-size: 32px;
+}

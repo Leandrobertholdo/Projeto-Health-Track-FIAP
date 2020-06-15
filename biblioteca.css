@@ -1,0 +1,51 @@
+html, body{
+	background-color: #000000
+}
+
+.nav-link{
+	
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.fonte-titulo{
+	font-family: 'Bowlby One SC', cursive;
+}
+
+.fonte-titulo-cor{
+	color: #EEB422;
+}
+
+.card-img-top{
+	object-fit: cover;
+	object-position:90% 20%;
+	height: 250px;
+}
+
+.card:hover{
+	border: #EEB422;
+	border-color:400px;
+}
+
+.card:hover h5{
+	font-size: 25px;
+}
+
+.linkar{
+	color: #000000;
+	font-weight: bold;
+}
+
+.imagem-carrossel{
+	object-fit: cover;
+	object-position:60% 30%;
+	height: 400px;
+}
+
+h3{
+	font-style: oblique;
+	color: #EEB422;
+	background-color: #000000;
+	display: inline;
+}

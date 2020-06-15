@@ -1,0 +1,20 @@
+body{
+	background-color: #000000;
+}
+
+.nav-link{
+	
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.nav-link:hover{
+	text-decoration: underline;
+}
+
+
+.fonte-titulo{
+	font-family: 'Bowlby One SC', cursive;
+	color: #EEB422;
+}

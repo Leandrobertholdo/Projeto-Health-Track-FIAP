@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="editarperfil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <title>Editar Perfil Helth Track</title>
+  </head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar navbar-light fixed-top"  style="background-color:#EEB422">
+          <div class="navbar-brand fonte-titulo">Health Track</div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse xd-flex justify-content-end"  id="navbarText">
+            <a class="nav-link " href="Dashboard.html">Dashboard <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Logoff</a>
+            <span class="navbar-text"></span>
+          </div>
+        </nav>
+    </header>    
+
+  <main class="container  pt-5">
+    <h1 class="blockquote text-center fonte-titulo pt-5"> Editar Perfil</h1>
+      <form>
+        <div class="container-fluid p-3 mb-2 bg-warning text-dark"> 
+
+          <div class="row">
+          <div class="col-md-6"
+            <label for="contato-name">Nome</label>
+            <input class="form-control font-italic" id="contato-name" placeholder="Seu nome">  
+          </div>
+
+          <div class="col-md-6"
+            <label for="contato-sobrenome">Sobrenome</label>
+            <input class="form-control font-italic" id="sobrenome" placeholder="Seu Sobrenome">  
+          </div>
+
+          <div class="col-md-6">
+            <label for="email">E-mail</label>    
+            <input class="form-control font-italic" id="contato-email" placeholder="Seu E-mail">
+          </div>
+
+          <div class="col-md-3">        
+            <label for="email">Endereço</label>
+            <input class="form-control font-italic" id="contato-endereco" placeholder="Seu Endereço">
+          </div> 
+          <div class="col-md-3"> 
+            <label for="email">Número</label>
+            <input class="form-control font-italic" id="contato-endereco" placeholder="Número">
+          </div>
+
+          <div class="col-md-6">        
+            <label for="email">Data de nascimento</label>
+            <input class="form-control font-italic" id="contato-nascimento" placeholder="DD/MM/AAAA">
+          </div>
+          <div class="col-md-6">  
+            <label for="email">Altura</label>
+            <input class="form-control font-italic" id="contato-email" placeholder="Ex: 1,80 Cm">
+          </div>
+
+          <div class="col-md-6">  
+            <label for="email">IMC</label>
+            <input class="form-control font-italic" id="contato-imc" placeholder="Seu IMC">
+          </div>
+
+        <div class="col-md-6">
+          <form class="form-inline ">
+            <label class="my-1 mr-2 " for="inlineFormCustomSelectPref">Gênero</label>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                  <option selected>Masculino</option>
+                  <option value="1">Feminino</option>
+              </select>
+          </form>
+        </div>  
+      </div>   
+     
+        <div class="form-group">
+          <label for="message-text" class="col-form-label">Biografia:</label>
+          <textarea class="form-control font-italic" id="message-text" placeholder="Escreva sobre você"></textarea>
+          <div class="container pt-5">
+              <button type="button" class="btn p-3 mb-2 bg-dark text-white btn-lg btn-block">Salvar</button>
+          </div>      
+        </div>
+  </main>
+
+  
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
